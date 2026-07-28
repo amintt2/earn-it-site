@@ -22,37 +22,51 @@
 <body>
 <div class="wrap">
   <h1>Politique de confidentialité</h1>
-  <p class="date">Dernière mise à jour : 12 juillet 2026</p>
+  <p class="date">Dernière mise à jour : 28 juillet 2026</p>
 
-  <h2>L'essentiel</h2>
-  <p>Earn-It est conçue pour que tes données restent sur ton appareil.</p>
+  <h2>Ce qui reste sur ton appareil (et n'en sort jamais)</h2>
   <ul>
-    <li><strong>Temps d'écran, apps bloquées</strong> : gérés par les API Apple (Screen Time). Ces données ne quittent jamais ton appareil et ne nous sont pas accessibles.</li>
-    <li><strong>Photos de vérification</strong> : prises en direct, jamais enregistrées, jamais envoyées. Elles servent uniquement de preuve instantanée.</li>
-    <li><strong>Localisation (geofence)</strong> : comparée localement au lieu que tu as choisi. Aucun trajet n'est enregistré ni transmis.</li>
-    <li><strong>Données santé (HealthKit)</strong> : lues localement pour valider tes objectifs. Jamais transmises.</li>
-    <li><strong>IA</strong> : la création d'objectifs par IA utilise Apple Intelligence, entièrement sur l'appareil.</li>
+    <li><strong>Temps d'écran et apps bloquées</strong> : gérés par les API Screen Time d'Apple. Par conception, ni nous ni personne ne pouvons lire ces données ; elles ne quittent jamais ton appareil.</li>
+    <li><strong>Photos de vérification</strong> : prises en direct, analysées en mémoire (cohérence de scène), jamais enregistrées sur le disque, jamais transmises.</li>
+    <li><strong>Localisation</strong> : comparée localement au lieu que tu as choisi. Aucun trajet enregistré ni transmis. La recherche de lieu par nom interroge Apple Plans (politique de confidentialité Apple).</li>
+    <li><strong>Données santé (HealthKit)</strong> : lues localement pour valider tes efforts. Jamais transmises à quiconque.</li>
+    <li><strong>Solde, objectifs, historique</strong> : stockés localement ; si tu actives iCloud, ta série se synchronise via ton iCloud personnel.</li>
   </ul>
+
+  <h2>Ce que tu peux choisir de partager (pair-à-pair)</h2>
+  <p>Les fonctions sociales fonctionnent <strong>sans serveur et sans compte</strong> : les données transitent directement entre appareils, chiffrées de bout en bout (réseau pair-à-pair Hyperswarm). Nous n'y avons pas accès.</p>
+  <ul>
+    <li><strong>Mode duo</strong> (optionnel) : ton partenaire voit le prénom que tu choisis, les titres de tes efforts validés, les minutes gagnées et ta série — uniquement lui, uniquement tant que le duo est actif. Quitter le duo arrête tout partage.</li>
+    <li><strong>Communauté</strong> (optionnel) : publier un modèle rend son nom, sa description et sa configuration <strong>publics</strong>, de façon anonyme. Relectures, notes et votes sont anonymes.</li>
+    <li><strong>Classement communautaire</strong> (optionnel) : tes points hebdomadaires peuvent être partagés sous un identifiant aléatoire anonyme pour calculer les percentiles.</li>
+  </ul>
+
+  <h2>IA</h2>
+  <p>La création d'objectifs utilise Apple Intelligence <strong>sur l'appareil</strong> par défaut. L'option « modèle cloud plus puissant » traite ta description via <strong>Apple Private Cloud Compute</strong> : chiffrée, non conservée, inaccessible à Apple comme à nous. Aucune IA tierce.</p>
 
   <h2>Ce que nous collectons</h2>
   <ul>
-    <li><strong>Statistiques d'usage anonymes</strong> (PostHog, hébergé en UE) : écrans vus, sessions validées, achats — sans identifiant personnel, pour améliorer l'app.</li>
+    <li><strong>Statistiques d'usage anonymes</strong> (PostHog, hébergement UE) : événements d'usage (écrans vus, sessions validées, achats) sans nom, sans e-mail, sans identifiant publicitaire, non reliés à ton identité. Finalité : améliorer l'app.</li>
     <li><strong>Achats</strong> : traités par Apple et RevenueCat (identifiant anonyme). Nous ne voyons jamais tes informations bancaires.</li>
   </ul>
+  <p>Pas de publicité, pas de tracking inter-apps, pas de vente de données.</p>
 
   <h2>Tes droits</h2>
-  <p>Supprime l'app : tout ce qui est local disparaît. Pour toute demande liée aux statistiques anonymes : <a href="mailto:amin2020e@gmail.com">amin2020e@gmail.com</a>.</p>
+  <p>Supprimer l'app efface tout ce qui est local. Quitter un duo arrête le partage. Les modèles publiés sont relayés anonymement de pair à pair et ne peuvent pas toujours être rappelés — publie uniquement ce que tu acceptes de rendre public. Pour toute demande (RGPD comprise) : <a href="mailto:amin2020e@gmail.com">amin2020e@gmail.com</a>.</p>
 
   <div class="en">
     <h1>Privacy Policy</h1>
-    <p class="date">Last updated: July 12, 2026</p>
-    <p>Earn-It keeps your data on your device. Screen Time data, blocked apps, verification photos
-    (taken live, never stored or uploaded), location checks and HealthKit data never leave your iPhone.
-    AI goal creation runs entirely on-device with Apple Intelligence.</p>
-    <p>We collect anonymous usage analytics (PostHog, EU-hosted — screens viewed, sessions completed,
-    purchases; no personal identifiers) and purchases are processed by Apple and RevenueCat with an
-    anonymous ID. Delete the app and all local data is gone. Questions:
-    <a href="mailto:amin2020e@gmail.com">amin2020e@gmail.com</a>.</p>
+    <p class="date">Last updated: July 28, 2026</p>
+    <h2>Stays on your device</h2>
+    <p>Screen Time data and blocked apps (Apple's APIs — unreadable by us, by design), live verification photos (analyzed in memory, never stored or uploaded), location checks (no trips recorded; place-name search queries Apple Maps), HealthKit data, your balance, goals and history (optional iCloud sync of your streak goes through your personal iCloud only).</p>
+    <h2>What you can choose to share (peer-to-peer)</h2>
+    <p>Social features are serverless and account-free; data travels directly between devices, end-to-end encrypted (Hyperswarm). <strong>Duo mode</strong>: your chosen first name, validated effort titles, earned minutes and streak are visible to your one partner only, while paired. <strong>Community</strong>: publishing a template makes its name, description and configuration public, anonymously; reviews, ratings and upvotes are anonymous. <strong>Community ranking</strong>: weekly points may be shared under a random anonymous identifier.</p>
+    <h2>AI</h2>
+    <p>Goal creation runs on-device (Apple Intelligence). The optional "more powerful cloud model" uses Apple Private Cloud Compute — encrypted, not retained, inaccessible to Apple or us. No third-party AI.</p>
+    <h2>What we collect</h2>
+    <p>Anonymous usage analytics (PostHog, EU hosting): usage events with no name, email or advertising identifier, not linked to your identity. Purchases are handled by Apple and RevenueCat (anonymous ID). No ads, no cross-app tracking, no data sales.</p>
+    <h2>Your rights</h2>
+    <p>Deleting the app erases everything local; leaving a duo stops partner sharing. Published templates are relayed peer-to-peer anonymously and cannot always be recalled — only publish what you're comfortable making public. Requests (incl. GDPR): <a href="mailto:amin2020e@gmail.com">amin2020e@gmail.com</a>.</p>
   </div>
 </div>
 </body>
